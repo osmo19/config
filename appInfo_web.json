@@ -1,0 +1,773 @@
+{
+	"versionApp": 1, 
+	"versionUpdate": 1,
+	"link": "",
+	"ServiceID": 50000,
+	"FBAppID": 1000,
+	
+	"preNameCookie": ".authenCookies",
+	
+	"isWaitPublic": false,
+	"isInStore": false,
+	"isNotiAlphaTest":false,
+	"isShowPopUpCenterCMS":true,
+	
+	"isShowShop": true,
+	"showOTP": true,
+	
+	"isAlphaEvent": true,
+	"isAlpha" : false,
+	
+	"google": false,
+	"facebook": false,
+	"minigame": false,	
+	"isRegister":false,
+	"isSupport": true,
+	"isEvent": false,
+
+	"notiBeforeLogin":{
+		"isOpen" : false,
+		"noClose" : false,
+		"msg" : "Tải và chơi game duy nhất tại Choang.vip. Mọi trang khác là lừa đảo!!!"
+	},
+	
+	"gameXoSo":{
+		"isOpen" : true,
+		"msg" : "Tạm dừng dịch vụ từ 10/2 - 14/2. Chúc     bạn may mắn với sự kiện Săn Trâu Vàng!"
+	},
+
+	"tracking":{
+		"isOn":true,
+		"FB":true
+	},
+	
+	"vongQuay":{
+		"WheelLoginGetMath": "https://anhzai.online/event/api/Captcha/GetMath",
+		"WheelLoginGetResultSpin": "https://anhzai.online/event/api/VongQuayMayManApi/GetResultSpinVQMMCap",
+		"WheelLoginGetRanking": "https://anhzai.online/event/api/VongQuayMayManApi/GetRankingVQMM",
+		"WheelLoginGetHistory":"https://anhzai.online/event/api/VongQuayMayManApi/GetHistoryVQMM",
+		"WheelLoginGetJackpotVq":"https://anhzai.online/event/api/VongQuayMayManApi/GetJackpotVq",
+		"WheelLoginBuySpin":"https://anhzai.online/event/api/VongQuayMayManApi/BuySpin",
+		"WheelLoginGetSpinLeft":"https://anhzai.online/event/api/VongQuayMayManApi/GetSpinLeftVQMM"
+	},
+	
+	"eventVP15":{
+		"isOpen": false,
+		"inTimeEvent":false,
+		"timeEventRun":"Từ 10h ngày 20/03 - 23h59p59s ngày 10/04",
+		"EventGetAccountInfo":"https://anhzai.online/event/api/EventTopVip/EventGetAccountInfo",
+		"EventGetRank":"https://anhzai.online/event/api/EventTopVip/EventGetRank"
+	},
+	
+	"eventSKC":{
+		"isShowBanner": false,
+		"isOpen": true,
+		"Account_Tet21_Info_Get":"https://anhzai.online/event/api/EventTet/Account_Tet21_Info_Get",  
+		"Account_Tet21_RungCay":"https://anhzai.online/event/api/EventTet/Account_Tet21_RungCay",  
+		"Account_Tet21_RankTrauVang":"https://anhzai.online/event/api/EventTet/Account_Tet21_RankTrauVang", 
+		"Account_RungCay_Noti":"https://anhzai.online/event/api/EventTet/Account_RungCay_Noti", 
+		"Account_Tet_History":"https://anhzai.online/event/api/EventTet/Account_Tet_History", 
+		"GetRankInDay":"https://anhzai.online/event/api/EventTet/GetRankInDay",
+		"SpinPerDay": 10,
+		
+		"AccountGetInfo":"https://anhzai.online/event/api/EventT8/AccountGetInfo",
+		"VongQuaySpin":"https://anhzai.online/event/api/EventT8/VongQuaySpin",
+		"AccountSpinNoti":"https://anhzai.online/event/api/EventT8/AccountSpinNoti",
+		"Account_Spin_History":"https://anhzai.online/event/api/EventT8/Account_Spin_History",
+		"GetRankInDay_v2":"https://anhzai.online/event/api/EventT8/GetRankInDay",
+		"GetRankAll":"https://anhzai.online/event/api/EventT8/GetRankAll",
+		"DiemDanhGetInfo":"https://anhzai.online/event/api/EventT8/DiemDanhGetInfo",
+		"NhiemVuGetList":"https://anhzai.online/event/api/EventT8/NhiemVuGetList",
+		"dayIdx":       [0, 6, 10, 15, 20, 30],
+		"prizeByDayIdx":   [0, 1, 3,  5,  7,  10]
+	  },
+	
+	"eventXHu":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/api/EventXJackpot/GetHonorXJackpot",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain"
+	},
+	
+	"eventXHuAiCap":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=5"
+	},	
+	
+	"eventXHuSuperHero":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=10"
+	},
+	
+	"eventXHuThanhChien":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=6"
+	},	
+	
+	"eventXHuXichLang":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=7"
+	},
+
+	"eventXHuLinhThu":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=8"
+	},	
+	"eventXHuThanRung":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=11"
+	},
+		
+	"eventXHuMaya":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=12"
+	},
+	
+	"eventXHuEuro":{
+	  "isOpen":true,
+	  "GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+	  "GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=13"
+	},
+	
+	"eventXHuThienHa":{
+		"isOpen":true,
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpotAll",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=3"
+	},	
+	
+	"eventGamePoint":{
+		"isOpen":true,
+		"GetBxhEventGamePoint": "https://anhzai.online/event/api/EventX/GetBxhEventGamePoint"
+	},
+	
+	"eventTrieuHoi":{
+		"isOpen": true,
+		"GetRongThanVinhDanh":"https://anhzai.online/event/api/EventRongThan/GetRongThanVinhDanh",
+		"GetRongThanNotify":"https://anhzai.online/event/api/EventRongThan/GetRongThanNotify"
+	},
+	"eventXinLoc":{
+		"isOpen": true,
+		"GetXinLocVinhDanh":"https://anhzai.online/event/api/EventX/GetXinLocVinhDanh",
+		"GetXinLocAccountPrize":"https://anhzai.online/event/api/EventX/GetXinLocAccountPrize",
+		"GetCaptcha":"https://anhzai.online/event/api/captcha/get",
+		"GetXinLocNhanLoc":"https://anhzai.online/event/api/EventX/GetXinLocNhanLoc",
+		"GetXinLocJackpot":"https://anhzai.online/event/api/EventX/GetXinLocJackpot"
+	},
+	"X3Nap":{
+		"isOpen": false,
+		"AccountX3_Info":"https://anhzai.online/authen/api/Loyalty/AccountX3_Info",
+		"AccountX3_CreateAward":"https://anhzai.online/authen/api/Loyalty/AccountX3_CreateAward"
+	},
+
+	"NotiScam":{
+		"isOpen": true
+	},
+	
+	"eventTichLuyKimCuong":{
+		"isOpen": true,
+		"EventGetInfo":"https://anhzai.online/event/api/EventDiamond/EventGetInfo",
+		"EventRevicePrize":"https://anhzai.online/event/api/EventDiamond/EventRevicePrize",
+		"GetListNotification":"https://anhzai.online/event/api/EventDiamond/GetListNotification"
+	},
+	
+	"eventTet":{
+    "isOpen": false,
+    "Account_Tet21_Info_Get":"https://anhzai.online/event/api/EventTet/Account_Tet21_Info_Get",
+    "Account_Tet21_RungCay":"https://anhzai.online/event/api/EventTet/Account_Tet21_RungCay",
+    "Account_Tet21_RankTrauVang":"https://anhzai.online/event/api/EventTet/Account_Tet21_RankTrauVang",
+    "Account_Tet21_Lixi":"https://anhzai.online/event/api/EventTet/Account_Tet21_Lixi",
+    "Account_RungCay_Noti":"https://anhzai.online/event/api/EventTet/Account_RungCay_Noti",
+    "Account_UpdatePoint_Log":"https://anhzai.online/event/api/EventTet/Account_UpdatePoint_Log",
+    "Account_Tet_History":"https://anhzai.online/event/api/EventTet/Account_Tet_History",
+    "Event_LixiPrize_Get":"https://anhzai.online/event/api/EventTet/Event_LixiPrize_Get"
+	},
+	
+	"Wallet_DG":{
+		"isOpen": true,
+		"GetBalance":"https://anhzai.online/dggame/Api/Transfer/GetBalance",
+		"Transfer":"https://anhzai.online/dggame/Api/Transfer/Transfer",
+		"GetGamePlay":"https://anhzai.online/dggame/Api/Transfer/GetGamePlay"
+	},
+	"Wallet_Pragmatic":{
+		"isOpen": true,
+		"GetBalance":"https://anhzai.online/pragmaticplay/Api/Transfer/GetBalance",
+		"Transfer":"https://anhzai.online/pragmaticplay/Api/Transfer/Transfer",
+		"GetGamePlay":"https://anhzai.online/pragmaticplay/Api/Transfer/GetGamePlay"
+	},
+	"Wallet_Saba":{
+		"isOpen": true,
+		"GetBalance":"https://anhzai.online/sabasport/Api/Transfer/GetBalance",
+		"Transfer":"https://anhzai.online/sabasport/Api/Transfer/Transfer",
+		"GetGamePlay":"https://anhzai.online/sabasport/Api/Transfer/GetGamePlay",
+		"GetGamePlayEsport":"https://anhzai.online/sabasport/Api/Transfer/GetGamePlay?sportType=esports"
+	},
+
+	"Wallet_AECasino":{
+		"isOpen": true,
+		"GetBalance":"https://anhzai.online/aecasino/Api/Transfer/GetBalance",
+		"Transfer":"https://anhzai.online/aecasino/Api/Transfer/Transfer",
+		"GetGamePlay":"https://anhzai.online/aecasino/Api/Transfer/GetGamePlay"
+	},
+	
+	"eventTanThu":{
+		"isOpen": true,
+		"GetAccountInfo":"https://anhzai.online/event/api/EventTanThu/GetAccountInfo",
+		"EventPrizeRevice":"https://anhzai.online/event/api/EventTanThu/EventPrizeRevice"
+	},
+	
+	"eventDailyMission":{
+		"isOpen": true,
+		"GetAccountInfo":"https://anhzai.online/event/api/NhiemVu/GetAccountInfo",
+		"EventPrizeRevice":"https://anhzai.online/event/api/NhiemVu/EventPrizeRevice"
+	},
+
+	"eventDailyLogin":{
+		"isOpen": true,
+		"GetAccountInfo":"https://anhzai.online/event/api/DiemDanh/GetAccountInfo",
+		"EventPrizeRevice":"https://anhzai.online/event/api/DiemDanh/EventPrizeRevice"
+	},
+
+	"countryData":{
+        "countryName":["Vietnam", "Australia", "Cambodia", "Canada", "China", "Mã vùng khác"],
+        "countryCode":["+84",     "+61",       "+855",     "+1",     "+86",    ""]
+    },
+	
+	"Mission":{
+        "textNormalPrize":"Thưởng cho VIP 1 - VIP 5",
+        "textVipPrize":"Thưởng cho VIP 6 - VIP 15",
+		"vipPrizeLvl": 6
+    },
+	
+	"banner":{
+        "napKMIsOpen": false,
+        "gameThatTruyenIsOpen": false
+    },
+	
+	"urlNews": "https://choangclub.net",
+	"urlFreezeAccount": "https://anhzai.online",
+	"urlFanpage": "https://www.facebook.com/groups/choangclubgroup",
+	"urlGroup": "https://www.facebook.com/groups/choangclub",
+	"urlGroupTele": "https://t.me/cskhchoang",
+	"urlChuyenKhoan": "http://anhzai.online/chuyenkhoan",
+	"urlDownGame": "https://tai.uytin.club",
+	"urlDownAppOTP": "https://t.me/otp_choang_bot",
+	"urlOTPTele": "https://t.me/otp_choang_bot",
+	"urlChatFooter": "https://t.me/cskhchoang",
+	"urlYoutube": "https://www.youtube.com/channel/UCIfpJJ23cvr_tvrOLNZBt8w",
+	"lockGame" : true,
+	"NewGameName":"Tải và chơi game duy nhất tại Choang.vip. Mọi trang khác là lừa đảo!!!    ",
+	"urlNotify":"",
+	"FishJackPotToken":"3d87caf2-f2a7-3ec5-9338-41bfdb2895bf",
+	"api": {
+		"GetTrustedDevices": "https://anhzai.online/authen/api/account/GetTrustedDevices",
+		"DeleteTrustedDevices": "https://anhzai.online/authen/api/account/DeleteTrustedDevices",
+		"FishJackPot": "https://api-banca.anhzai.online/mobile/event",
+		"TrumCaUrlPlay": "https://anhzai.online/fishingyl/Api/Game/GetLoginUrl",
+		"CaKiemUrlPlay": "https://anhzai.online/spade/Api/Spade/GetLoginUrl",
+		"ChickenUrlPlay": "https://anhzai.online/ChickenGame/Api/ChickenApi/GetGamePlayUrl",
+		"MouseUrlPlay": "http://anhzai.online/mouselive/Api/Game/GetClientUrl",
+		"GetAccessToken": "https://anhzai.online/authen/api/FishingGame/GetAccessToken",
+		"GetCaptcha": "https://anhzai.online/authen/Api/Captcha/Get",
+		"QuickRegister": "https://anhzai.online/authen/Api/Account/QuickRegister",
+		"LoginMobile": "https://anhzai.online/authen/Api/Account/LoginMobile",
+		"LogOut": "https://anhzai.online/authen/Api/Account/logout?continueUrl=https://anhzai.online",
+		"FacebookLoginMobile": "https://anhzai.online/authen/Api/Account/FacebookLoginMobile",
+		"LoginFBWeb": "https://anhzai.online/authen/Api/Account/LoginOpenId?LoginType=facebook&ServiceId=50000&UrlRoot=http%3A%2F%2Fanhzai.online%2F&ContinueUrl=http%3A%2F%2Fanhzai.online%2F&TrackingUri=http%3A%2F%2Fanhzai.online%2F",
+		"LoginUserUsingOtp": "https://anhzai.online/authen/Api/Account/LoginUserUsingOtp",
+		"ResetPassword": "https://anhzai.online/authen/Api/Account/ResetPassword",
+		"AccountGetInfor": "https://anhzai.online/authen/Api/Account/GetAccountInfo",
+		"AccountNickNameUpdate": "https://anhzai.online/authen/Api/Account/UpdateNickName",
+		"AccountAvatarUpdate": "https://anhzai.online/authen/Api/Account/UpdateAvatar",
+		"BannerAppGetList": "https://anhzai.online/event/api/AdvAppApi/BannerAppGetList",
+		"PopupAppGetList": "https://anhzai.online/event/api/AdvAppApi/PopupAppGetList",
+		"GetHonor": "https://anhzai.online/luckydice/api/luckydice/GetTopSessionWinners",
+		"GetNotifySystem": "https://anhzai.online/event/api/AdvAppApi/GetNotifySystem",
+		"ListJackpotInfo":"https://anhzai.online/event/api/JackpotInfoApi/ListJackpotInfo",
+		"ListJackpotInfoAll":"https://anhzai.online/event/api/JackpotInfoApi/ListJackpotInfoAll",
+		"GetTopAccount":"https://anhzai.online/event/api/EventAlpha/GetTopAccount",
+		"GetAccountHistory":"https://anhzai.online/authen/Api/Account/GetAccountHistory",
+		"GetSmsPlusMobileInfo":"https://anhzai.online/authen/Api/AccountSecurity/GetSmsPlusMobileInfo",
+		"VerifyMobileNumber":"https://anhzai.online/authen/Api/AccountSecurity/VerifyMobileNumber",
+		"ChangeSMSPlusMobile":"https://anhzai.online/authen/Api/AccountSecurity/ChangeSMSPlusMobile",
+		"UnVerifyMobileNumber":"https://anhzai.online/authen/Api/AccountSecurity/UnVerifyMobileNumber",
+		"GetAuthenSecureInfo":"https://anhzai.online/authen/Api/AccountSecurity/GetAuthenSecureInfo",
+		"SetupAuthenSecure":"https://anhzai.online/authen/Api/AccountSecurity/SetupAuthenSecure",
+		"GetFreezeStarInfo":"https://anhzai.online/authen/Api/BalanceTransaction/GetFreezeStarInfo",
+		"FreeStar":"https://anhzai.online/authen/Api/BalanceTransaction/FreeStar",
+		"ProcessGetOtpOdp":"https://anhzai.online/authen/Api/ProcessSecurity/ProcessGetOtpOdp?type=1",
+		"CheckOtpValue":"https://anhzai.online/authen/Api/AccountSecurity/CheckOtpValue",
+		"ProcessOtpOpenAuthen":"https://anhzai.online/authen/Api/ProcessSecurity/ProcessOtpOpenAuthen",
+		"ProcessOtp":"https://anhzai.online/authen/Api/ProcessSecurity/ProcessOtp",
+		"ProcessGetOtpOdpGetPass":"https://anhzai.online/authen/Api/ProcessSecurity/ProcessGetOtpOdpGetPass",
+		"TransferBalanceToGiftcode":"https://anhzai.online/authen/api/BalanceTransaction/TransferBalanceToGiftcode",
+		"GetTopLuckyDice":"https://anhzai.online/event/api/EventAlpha/GetTopLuckyDice",
+		"ReceiveRewardGift":"https://anhzai.online/authen/Api/Account/ReceiveRewardGift",
+		"TopJackpot":"https://anhzai.online/event/api/AdvAppApi/TopJackpot?topCount=10",
+		"GetAccountInfoFull":"https://anhzai.online/authen/api/Account/GetAccountInfoFull",
+		"ChangePass":"https://anhzai.online/authen/Api/Account/ChangePass",
+		"ProcessOtpChangeNumber":"https://anhzai.online/authen/Api/ProcessSecurity/ProcessOtpChangeNumber",
+		"GetHonorXJackpotAll":"https://anhzai.online/event/api/EventXJackpot/GetHonorXJackpotAll?top=100",
+		"GetJackpotRemainAll":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemainAll",
+		"GetCurrentRoomInfo":"https://anhzai.online/luckydice/api/luckydice/GetCurrentRoomInfo",
+		"vip":{
+			"GetListLevels":"https://anhzai.online/authen/api/loyalty/GetListLevels",
+			"ExchangeVPToCoin": " https://anhzai.online/authen/api/loyalty/ExchangeVPToCoin",
+			"L_ReviceHv":"https://anhzai.online/authen/api/Loyalty/L_ReviceHv",
+			"GetAccountInfo":"https://anhzai.online/authen/api/Loyalty/GetAccountInfo"
+		},
+		"homqua": {
+			"HomThuGetCountUnread":"https://anhzai.online/authen/Api/Account/HomThuGetCountUnread",
+			"GetListUserMessage":"https://anhzai.online/authen/Api/Account/GetListUserMessage",
+			"HomThuReceiptPrize":"https://anhzai.online/authen/Api/Account/HomThuReceiptPrize",
+			"HomThuInboxRead":"https://anhzai.online/authen/Api/Account/HomThuInboxRead"
+		}
+	},
+	
+	"shop":{
+		"isOpen": true,
+		"isBannerNapOpen": false,
+		"isCopyEnable": true,
+		"TopupBalanceUseCardTelco":"https://anhzai.online/authen/Api/BalanceTransaction/TopupBalanceUseCardTelco",
+		"EshopGetCardPrize": "https://anhzai.online/authen/Api/EshopWebApi/EshopGetCardPrize",
+		"ProcessEshopStep1": "https://anhzai.online/authen/Api/EshopWebApi/ProcessEshopStep1",
+		"EshopRegisterBuyCardV2": "https://anhzai.online/authen/Api/EshopWebApi/EshopRegisterBuyCardV2",
+		"GetListTopupHistory": "https://anhzai.online/authen/Api/EshopWebApi/GetListTopupHistory_New",
+		"GetEshopOrderDetail": "https://anhzai.online/authen/Api/EshopWebApi/GetEshopOrderDetail",
+		"TransferStar": "https://anhzai.online/authen/Api/BalanceTransaction/TransferStar",
+		"GetPolicyTransfer": "https://anhzai.online/authen/Api/BalanceTransaction/GetPolicyTransfer",
+		"TranferStarToCoin": "https://anhzai.online/authen/Api/BalanceTransaction/TranferStarToCoin",
+		"CheckingGiftCode": "https://anhzai.online/authen/Api/Account/CheckingGiftCode",
+		"GetListAgency": "https://anhzai.online/authen/api/Account/GetListAgency",
+		"CheckExistNickName":"https://anhzai.online/authen/Api/Account/CheckExistNickName",		
+		"GetCaptcha":"https://anhzai.online/topup/Api/Captcha/Get",
+		"TopupBalanceByCard":"https://anhzai.online/topup/api/Topup/TopupBalanceByCard",
+		"TopupCard_GetCardValueAllow":"https://anhzai.online/topup/api/Topup/TopupCard_GetCardValueAllow",
+		"HistoryTopupByCard":"https://anhzai.online/topup/api/Topup/HistoryTopupByCard",
+		"GetAccountHistory":"https://anhzai.online/authen/api/Account/GetAccountHistory",
+		"GetMomoInfo":"https://anhzai.online/topup/api/topup/GetMomoInfo",
+		"GetBank":"https://anhzai.online/topup/API/Topup/GetBank",
+		"GetCodeTransfer":"https://anhzai.online/topup/API/Topup/GetCodeTransfer",
+		"HistoryAccountCard":"https://anhzai.online/topup/Api/Topup/HistoryAccountCard",
+		"HistoryAccountWallet":"https://anhzai.online/topup/Api/Topup/HistoryAccountWallet",
+		"HistoryAccountBank":"https://anhzai.online/topup/Api/Topup/HistoryAccountBank",
+		"HistoryWallet":"https://anhzai.online/topup/API/Topup/HistoryWallet",
+		"GetAccountInfo":"https://anhzai.online/topup/api/USDT/GetAccountInfo",
+		"GetUSDTAuthenLink":"https://anhzai.online/topup/api/USDT/GetUSDTAuthenLink",
+		"Transfer":"https://anhzai.online/topup/api/USDT/Transfer",
+		"urlOTPTele": "http://t.me/otp_choang_bot",
+		"notify": "",
+		
+		"TiLeDoiThe":{
+		"NganHang":"+15%",
+		"VDT":"+15%",
+		"TheCao":"+10%"
+		},
+		"NapNH":{
+		  "min": 50000,
+		  "max": 20000000
+		},
+		"napViettel":[
+		  { "menhgia": 20000,
+			"nhan": 20000
+		  },
+		  { "menhgia": 50000,
+			"nhan": 50000
+		  },
+		  { "menhgia": 100000,
+			"nhan": 110000
+		  },
+		  { "menhgia": 200000,
+			"nhan": 220000
+		  },
+		  { "menhgia": 300000,
+			"nhan": 330000
+		  },
+		  { "menhgia": 500000,
+			"nhan": 550000
+		  }
+		],
+		"napVina":[
+		  { "menhgia": 20000,
+			"nhan": 20000
+		  },
+		  { "menhgia": 50000,
+			"nhan": 50000
+		  },
+		  { "menhgia": 100000,
+			"nhan": 110000
+		  },
+		  { "menhgia": 200000,
+			"nhan": 220000
+		  },
+		  { "menhgia": 300000,
+			"nhan": 330000
+		  },
+		  { "menhgia": 500000,
+			"nhan": 550000
+		  }
+		],
+		"napMobi":[
+		  { "menhgia": 20000,
+			"nhan": 20000
+		  },
+		  { "menhgia": 50000,
+			"nhan": 50000
+		  },
+		  { "menhgia": 100000,
+			"nhan": 110000
+		  },
+		  { "menhgia": 200000,
+			"nhan": 220000
+		  },
+		  { "menhgia": 300000,
+			"nhan": 330000
+		  },
+		  { "menhgia": 500000,
+			"nhan": 550000
+		  }
+		],
+		"napVNB":[
+		  { "menhgia": 20000,
+			"nhan": 20000
+		  },
+		  { "menhgia": 50000,
+			"nhan": 50000
+		  },
+		  { "menhgia": 100000,
+			"nhan": 110000
+		  },
+		  { "menhgia": 200000,
+			"nhan": 220000
+		  },
+		  { "menhgia": 300000,
+			"nhan": 330000
+		  },
+		  { "menhgia": 500000,
+			"nhan": 550000
+		  }
+		],
+		"napZing":[
+		  { "menhgia": 20000,
+			"nhan": 20000
+		  },
+		  { "menhgia": 50000,
+			"nhan": 50000
+		  },
+		  { "menhgia": 100000,
+			"nhan": 110000
+		  },
+		  { "menhgia": 200000,
+			"nhan": 220000
+		  },
+		  { "menhgia": 300000,
+			"nhan": 330000
+		  },
+		  { "menhgia": 500000,
+			"nhan": 550000
+		  }
+		],
+		"napMomo":[
+			50000,100000,200000,500000,1000000,2000000,5000000,10000000
+		],
+		"doiThe":[
+			{ "Gold": 11000,
+			  "the": 10000
+			},
+			{ "Gold": 50000,
+			  "the": 50000
+			}
+		]
+	},
+	
+	
+	
+	"InAppPurchase": {
+		"IsOpen": true,
+		"Api": {
+			"AccountQuotaCheck": "",
+			"VerifyReceipt": ""
+		},
+		"ConfigJson": {
+			"ios": { 
+				"iap": { 
+					"items":
+					{ 
+						"1 Gold":
+						{ 
+							"id":""
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	"server" :{
+	  "taxi": {
+		"negotiate": "https://anhzai.online/luckydice/signalr/negotiate",
+		"connect": "wss://anhzai.online/luckydice/signalr/connect",
+		"hubGame": "MiniGameHub",
+		
+		"chatNegotiate": "https://chatw.anhzai.online/signalr/negotiate",
+		"chatConnect": "wss://chatw.anhzai.online/signalr/connect",
+		"chatHub": "chatHub",
+		"channel": "chatLuckydice",
+			
+		"GetTopDailyWinners":"https://anhzai.online/luckydice/api/luckydice/GetTopDailyWinners",
+		"GetTopMonthWinners":"https://anhzai.online/luckydice/api/luckydice/GetTopMonthWinners",		
+		"GetTopAllWinners":"https://anhzai.online/luckydice/api/luckydice/GetTopAllWinners",
+		"GetAccountHistory":"https://anhzai.online/luckydice/api/luckydice/GetAccountHistory", 
+		"GetTopAccounts":"https://anhzai.online/luckydice/api/luckydice/GetTopAccounts", 
+		"GetListSoiCau":"https://anhzai.online/luckydice/api/luckydice/GetListSoiCau",
+		"GetTop20RecentSessions":"https://anhzai.online/luckydice/luckydice/api/luckydice/GetTop20RecentSessions",
+		"GetSessionDetailsTX":"https://anhzai.online/luckydice/api/luckydice/GetSessionDetails",
+		"GetBxhJackpot" : "https://anhzai.online/event/Api/EventRongThan/GetBxhJackpot",
+		"GetBxhJackpotDetail" : "https://anhzai.online/event/Api/EventRongThan/GetBxhJackpotDetail",
+		"GetAccountJackpot" : "https://anhzai.online/event/Api/EventRongThan/GetAccountJackpot"
+	  },
+	  "minipoker": {
+		"negotiate": "https://anhzai.online/minipoker/signalr/negotiate",
+		"connect": "wss://anhzai.online/minipoker/signalr/connect",
+		"hubGame": "MiniGameHub",
+		
+		"GetAccountHistory":"https://anhzai.online/minipoker/Api/MiniPoker/GetAccountHistory",
+		"GetTopWinners":"https://anhzai.online/minipoker/Api/MiniPoker/GetTopWinners",
+		"GetJackpotRemain":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain"
+	  },
+	   "xocdia": {
+		"negotiate": "https://anhzai.online/xocdia/signalr/negotiate",
+		"connect": "wss://anhzai.online/xocdia/signalr/connect",
+		"hubGame": "BauCuaHub",
+		"getAccountHistory":"https://anhzai.online/xocdia/Api/BauCua/GetAccountHistory",
+		"getAccountHistoryDetail":"https://anhzai.online/xocdia/Api/BauCua/GetAccountHistoryDetail",
+		"getTopDailyWinners": "https://anhzai.online/xocdia/Api/BauCua/getTopDailyWinners",
+		"getListSoiCau": "https://anhzai.online/xocdia/Api/BauCua/GetListSoiCau"
+	  },
+	  
+	  "xdbig": {
+      "negotiate": "https://xocdiaw.anhzai.online/signalr/negotiate",
+      "connect": "wss://xocdiaw.anhzai.online/signalr/connect",
+      "hubGame": "XocDiaHub",
+      
+	  "chatNegotiate": "https://chatw.anhzai.online/signalr/negotiate",
+	  "chatConnect": "wss://chatw.anhzai.online/signalr/connect",
+      "chatHub": "chatHub",
+      "channel": "channel_xd",
+      
+      "getAccountHistory":"https://xocdiaw.anhzai.online/Api/BauCua/GetAccountHistory",
+      "getAccountHistoryDetail":"https://xocdiaw.anhzai.online/Api/BauCua/GetAccountHistoryDetail",
+      "getTopDailyWinners": "https://xocdiaw.anhzai.online/Api/BauCua/getTopDailyWinners",
+      "getListSoiCau": "https://xocdiaw.anhzai.online/Api/BauCua/GetListSoiCau"
+	  },
+		
+	  "cscg": {
+		"negotiate": "https://anhzai.online/chuotsachinhgao/signalr/negotiate",
+		"connect": "wss://anhzai.online/chuotsachinhgao/signalr/connect",
+		"hubGame": "BauCuaHub",
+		
+		"getListSoiCau":"https://anhzai.online/chuotsachinhgao/Api/History/GetListSoiCau",
+		"getTopDailyWinners":"https://anhzai.online/chuotsachinhgao/Api/History/getTopDailyWinners",
+		"getAccountHistoryDetail":"https://anhzai.online/chuotsachinhgao/Api/History/GetAccountHistoryDetail",
+		"getAccountHistory":"https://anhzai.online/chuotsachinhgao/Api/History/GetAccountHistory"
+	  },
+	  "baucua": {
+		"negotiate": "https://anhzai.online/panda/signalr/negotiate",
+		"connect": "wss://anhzai.online/panda/signalr/connect",
+		"hubGame": "BauCuaHub",
+		
+		"getListSoiCau":"https://anhzai.online/panda/Api/BauCua/GetListSoiCau",
+		"getTopDailyWinners":"https://anhzai.online/panda/Api/BauCua/getTopDailyWinners",
+		"getAccountHistoryDetail":"https://anhzai.online/panda/Api/BauCua/GetAccountHistoryDetail",
+		"getAccountHistory":"https://anhzai.online/panda/Api/BauCua/GetAccountHistory",
+		"getSessionDetails": "https://anhzai.online/panda/Api/BauCua/GetSessionDetails"
+	  },
+	  "tulinh": {
+		"negotiate": "https://anhzai.online/tulinh/signalr/negotiate",
+		"connect": "wss://anhzai.online/tulinh/signalr/connect",
+		"hubGame": "TuLinhHub",
+		
+		"getListSoiCau":"https://anhzai.online/tulinh/Api/TuLinh/GetListSoiCau",
+		"getTopDailyWinners":"https://anhzai.online/tulinh/Api/TuLinh/getTopDailyWinners",
+		"getAccountHistoryDetail":"https://anhzai.online/tulinh/Api/TuLinh/GetAccountHistoryDetail",
+		"getAccountHistory":"https://anhzai.online/tulinh/Api/TuLinh/GetAccountHistory",
+		"getSessionDetails": "https://anhzai.online/tulinh/Api/TuLinh/GetSessionDetails"
+	  },
+	   "xoso": {
+		"GetCurrentSession":"https://anhzai.online/xoso/api/game/GetCurrentSession",
+		"GetListSession":"https://anhzai.online/xoso/api/game/GetListSession",
+		"SetBet": "https://anhzai.online/xoso/api/game/SetBet",
+		"GetKetQuaPhien": "https://anhzai.online/xoso/api/game/GetKetQuaPhien",
+		"GetLichSuAccount": "https://anhzai.online/xoso/api/game/GetLichSuAccount",
+		"GetVinhDanh": "https://anhzai.online/xoso/api/game/GetVinhDanh",
+		"GetAccountBetCurrent": "https://anhzai.online/xoso/api/game/GetAccountBetCurrent",
+		"CheckAllowBet": "https://anhzai.online/xoso/api/game/CheckAllowBet"
+	  },
+	  "chimlon":{
+			"negotiate":"https://anhzai.online/chimdien/signalr/negotiate",
+            "connect":"wss://anhzai.online/chimdien/signalr/connect",
+            "hubGame":"thanquayHub",
+            "GetSpinHistory":"https://anhzai.online/chimdien/api/service/GetSpinHistory",
+            "GetJackpotHistory":"https://anhzai.online/chimdien/api/service/GetJackpotHistory",
+            "GetJackpotRemain":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=2"
+	  },
+	  "halloween":{
+			"negotiate":"https://anhzai.online/halloween/signalr/negotiate",
+            "connect":"wss://anhzai.online/halloween/signalr/connect",
+            "hubGame":"gameHub",
+            "GetAccountHistory":"https://anhzai.online/halloween/api/chuadao/history",
+            "GetTopPlayers":"https://anhzai.online/halloween/api/chuadao",
+            "GetJackpotRemain":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=4"
+	  },
+	  "tlmnsl":{
+			"negotiate" : "https://tlmnweb.anhzai.online/signalr/negotiate",
+            "connect" : "wss://tlmnweb.anhzai.online/signalr/connect",
+            "hubGame" : "tienlenhub"
+	  },
+	   "poker":{
+			"negotiate" : "https://pokerweb.anhzai.online/signalr/negotiate",
+            "connect" : "wss://pokerweb.anhzai.online/signalr/connect",
+            "hubGame" : "pokerHub",
+			"chatNegotiate": "https://chatw.anhzai.online/signalr/negotiate",
+			"chatConnect": "wss://chatw.anhzai.online/signalr/connect",
+			"chatChannel": "worldChat",
+			"hubChat": "chatHub",
+			"GetTopRanking":"https://pokerweb.anhzai.online/api/ranking/GetTopRanking?topCount=8",
+			
+			"buyInRate": 20,
+			"quickChat":[
+				"Hi", "Lẹ lên nào", "Đỏ vãi", "All In", "Đen vãi", "Mình xin!", "OMG!", "Thêm tiền đi",
+				"Theo đi các bạn trẻ", "Thích thì nhích", "Xoắn gì, tố đi", "Hết xiền rùi"
+			],
+			"goldValue": [
+				100,
+				1000,
+				10000
+			],
+			"xuValue": [
+				100,
+				1000,
+				10000
+			]
+	  },
+	  "fruitcocktail":{
+			"negotiate":"https://anhzai.online/aicap/signalr/negotiate",
+			"connect":"wss://anhzai.online/aicap/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/aicap/History/GetHistoryPaging",
+			"GetHistoryJackPot":"https://anhzai.online/aicap/History/GetHistoryJackPot",
+			"GetHonor":"https://anhzai.online/aicap/History/GetHonor",
+			"GetJackpotRemain":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=5"
+	  },
+	  "thanhchien":{
+			"negotiate":"https://anhzai.online/karaoke/signalr/negotiate",
+			"connect":"wss://anhzai.online/karaoke/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/karaoke/History/GetHistoryPaging",
+			"GetHistoryJackPot":"https://anhzai.online/karaoke/History/GetHistoryJackPot",
+			"GetHonor":"https://anhzai.online/karaoke/History/GetHonor"
+	  },	  
+	  "superhero":{
+		  "negotiate":"https://anhzai.online/superhero/signalr/negotiate",
+		  "connect":"wss://anhzai.online/superhero/signalr/connect",
+		  "hubGame":"ZombiesSlotHub",
+		  "GetAccountHistory":"https://anhzai.online/superhero/Api/Top/GetAccountHistory",
+		  "GetTopPlayers":"https://anhzai.online/superhero/Api/Top/GetTopPlayers"
+      },	  
+	  "thienha":{
+            "negotiate": "https://anhzai.online/thienha/signalr/negotiate",
+            "connect": "wss://anhzai.online/thienha/signalr/connect",
+            "getTransactionHistory": "https://anhzai.online/thienha/api/vinhdanh/GetTransactionHistory",
+            "getHonorHistory" : "https://anhzai.online/thienha/api/vinhdanh/GetHonorHistory",
+            "getJackpotHistory": "https://anhzai.online/thienha/api/vinhdanh/GetJackpotHistory",
+            "hubGame": "supernovahub"
+      },
+	  "hilo": {
+		"negotiate": "https://anhzai.online/caothap/signalr/negotiate",
+        "connect": "wss://anhzai.online/caothap/signalr/connect",
+        "hubGame": "Hilo",
+        "GetAccountHistory": "https://anhzai.online/caothap/api/HiLo/GetAccountHistory",
+        "GetAccountHistoryDetail": "https://anhzai.online/caothap/api/HiLo/GetAccountHistoryDetail",
+        "GetTopWinners": "https://anhzai.online/caothap/api/HiLo/GetTopWinners"
+	  },
+	  "sayan":{
+			"negotiate":"https://anhzai.online/masoi/signalr/negotiate",
+			"connect":"wss://anhzai.online/masoi/signalr/connect",
+			"chatNegotiate":"https://anhzai.online/masoi/signalr/negotiate",
+			"chatConnect":"wss://anhzai.online/masoi/signalr/connect",
+			"hubchat":"chatHub",
+			"chanel_chat":"all_thanden",
+			"hubGame":"AladdinHub",
+			"getHistory":"https://anhzai.online/masoi/api/history/GetHistory",
+			"getBigWin":"https://anhzai.online/masoi/api/history/GetBigWin",
+			"getNoHu":"https://anhzai.online/masoi/api/history/GetNoHu",
+			"getFreeSpin":"https://anhzai.online/masoi/api/history/GetFreeSpin",
+			"getHonor":"https://anhzai.online/masoi/api/history/GetHonor"
+	  },
+		"sparta":{
+			"negotiate":"https://anhzai.online/12congiap/signalr/negotiate",
+			"connect":"wss://anhzai.online/12congiap/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/12congiap/Api/Top/GetAccountHistory",
+			"GetHonor":"https://anhzai.online/12congiap/Api/Top/GetTopPlayers"
+		},
+		"captain":{
+			"negotiate":"https://anhzai.online/daophucsinh/signalr/negotiate",
+			"connect":"wss://anhzai.online/daophucsinh/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/daophucsinh/Api/History/GetHistory",
+			"GetTopPlayers":"https://anhzai.online/daophucsinh/Api/Statistic/GetStatistic",
+			"GetJackpotRemain":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=9",
+			"isOpenXHu": true
+	  },
+	  "thiendia":{
+			"negotiate": "https://anhzai.online/thiendia/signalr/negotiate",
+			"connect": "wss://anhzai.online/thiendia/signalr/connect",
+			"hubGame": "thiendiahub",
+			"GetTopAccount":"https://anhzai.online/thiendia/api/service/GetTopAccount",
+			"GetTopJackpot":"https://anhzai.online/thiendia/api/service/GetTopJackpot",
+			"GetAccountHistory":"https://anhzai.online/thiendia/api/service/GetAccountHistory",
+			"GetAccountHistoryDetail":"https://anhzai.online/thiendia/api/service/GetAccountHistoryDetail"
+	  },
+	  "thanrung":{
+			"negotiate":"https://anhzai.online/thanrung/signalr/negotiate",
+			"connect":"wss://anhzai.online/thanrung/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/thanrung/Api/History/GetAccountHistory",
+			"GetHonor":"https://anhzai.online/thanrung/Api/History/GetTopPlayers"
+	  },
+	  "luckyclub":{
+			"negotiate":"https://anhzai.online/luckyclub/signalr/negotiate",
+			"connect":"wss://anhzai.online/luckyclub/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/luckyclub/Api/History/GetAccountHistory",
+			"GetHonor":"https://anhzai.online/luckyclub/Api/History/GetTopPlayers"
+		},
+	  "maya":{
+		   "negotiate":"https://anhzai.online/slot345/signalr/negotiate",
+		   "connect":"wss://anhzai.online/slot345/signalr/connect",
+		   "hubGame":"GameHub",
+		   "GetHistory":"https://anhzai.online/slot345/Api/History/GetAccountHistory",
+		   "GetHonor":"https://anhzai.online/slot345/Api/History/GetTopPlayers"
+		},
+		"euro":{
+			  "negotiate":"https://anhzai.online/euro/signalr/negotiate",
+			  "connect":"wss://anhzai.online/euro/signalr/connect",
+			  "chatNegotiate":"https://anhzai.online/euro/signalr/negotiate",
+			  "chatConnect":"wss://anhzai.online/euro/signalr/connect",
+			  "hubchat":"chatHub",
+			  "chanel_chat":"all_thanden",
+			  "hubGame":"AladdinHub",
+			  "getHistory":"https://anhzai.online/euro/api/history/GetHistory",
+			  "getBigWin":"https://anhzai.online/euro/api/history/GetBigWin",
+			  "getNoHu":"https://anhzai.online/euro/api/history/GetNoHu",
+			  "getFreeSpin":"https://anhzai.online/euro/api/history/GetFreeSpin",
+			  "getHonor":"https://anhzai.online/euro/api/history/GetHonor"
+			}		
+	}
+}
