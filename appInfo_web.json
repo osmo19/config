@@ -655,7 +655,7 @@
             "name": "Tứ Linh",
             "scene": "minigame/TuLinhScene",
             "proxy": "TuLinhProxy",
-            "msgInit": "minigame.INIT_GAME_TU_LINH",
+            "msgInit": "minigame.INIT_TU_LINH",
 
             "negotiate": "https://anhzai.online/tulinh/signalr/negotiate",
             "connect": "wss://anhzai.online/tulinh/signalr/connect",
