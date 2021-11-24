@@ -516,7 +516,7 @@
 	  "taxi": {
 		"gameId": -1,
 		"key": "taxi",  
-		"gameName": "Tài Xỉu",
+		"name": "Tài Xỉu",
 		"scene": "minigame/TaiXiuScene",
 		"proxy": "TaiXiuProxy",
 		"msgInit": "minigame.INIT_TAI_XIU",  
@@ -543,6 +543,13 @@
 		"GetAccountJackpot" : "https://anhzai.online/event/Api/EventRongThan/GetAccountJackpot"
 	  },
 	  "minipoker": {
+		"gameId": -1,
+		"key": "Minipoker",  
+		"name": "MiniPoker",
+		"scene": "minigame/MiniPokerScene",
+		"proxy": "MiniPokerProxy",
+		"msgInit": "minigame.INIT_MINI_POKER",    
+		  
 		"negotiate": "https://anhzai.online/minipoker/signalr/negotiate",
 		"connect": "wss://anhzai.online/minipoker/signalr/connect",
 		"hubGame": "MiniGameHub",
