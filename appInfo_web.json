@@ -599,7 +599,7 @@
             "name": "Xóc Đĩa",
             "scene": "minigame/XocDiaScene",
             "proxy": "XocDiaProxy",
-            "msgInit": "minigame.INIT_GAME_XOC_DIA",
+            "msgInit": "game.INIT_GAME_XOC_DIA",
 
             "negotiate": "https://anhzai.online/xocdia/signalr/negotiate",
             "connect": "wss://anhzai.online/xocdia/signalr/connect",
@@ -638,7 +638,7 @@
             "name": "Bầu cua",
             "scene": "minigame/BauCuaToScene",
             "proxy": "BauCuaToProxy",
-            "msgInit": "minigame.INIT_GAME_BAU_CUA_TO",
+            "msgInit": "game.INIT_GAME_BAU_CUA_TO",
 
             "negotiate": "https://anhzai.online/baucua/signalr/negotiate",
             "connect": "wss://anhzai.online/baucua/signalr/connect",
