@@ -613,11 +613,11 @@
 		"CheckAllowBet": "https://anhzai.online/xoso/api/game/CheckAllowBet"
 	  },
 	  "chimlon":{
-			"negotiate":"https://anhzai.online/chimdien/signalr/negotiate",
-            "connect":"wss://anhzai.online/chimdien/signalr/connect",
+			"negotiate":"https://anhzai.online/dragonegg/signalr/negotiate",
+            "connect":"wss://anhzai.online/dragonegg/signalr/connect",
             "hubGame":"thanquayHub",
-            "GetSpinHistory":"https://anhzai.online/chimdien/api/service/GetSpinHistory",
-            "GetJackpotHistory":"https://anhzai.online/chimdien/api/service/GetJackpotHistory",
+            "GetSpinHistory":"https://anhzai.online/dragonegg/api/service/GetSpinHistory",
+            "GetJackpotHistory":"https://anhzai.online/dragonegg/api/service/GetJackpotHistory",
             "GetJackpotRemain":"https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain?gameId=2"
 	  },
 	  "halloween":{
