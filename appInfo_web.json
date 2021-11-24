@@ -849,11 +849,11 @@
             "proxy": "FastFuriousProxy",
             "msgInit": "minigame.INIT_FAST_FURIOUS",
 
-            "negotiate": "https://anhzai.online/luckyclub/signalr/negotiate",
-            "connect": "wss://anhzai.online/luckyclub/signalr/connect",
-            "hubGame": "gameHub",
-            "GetHistory": "https://anhzai.online/luckyclub/Api/History/GetAccountHistory",
-            "GetHonor": "https://anhzai.online/luckyclub/Api/History/GetTopPlayers"
+            "negotiate": "https://anhzai.online/fastfurious/signalr/negotiate",
+            "connect": "wss://anhzai.online/fastfurious/signalr/connect",
+            "hubGame": "GameHub",
+            "GetHistory": "https://anhzai.online/FastFurious/Api/History/GetAccountHistory",
+            "GetHonor": "https://anhzai.online/FastFurious/Api/History/GetTopPlayers"
         },
         "maya": {
             "negotiate": "https://anhzai.online/slot345/signalr/negotiate",
