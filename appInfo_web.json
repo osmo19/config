@@ -536,6 +536,18 @@
         }
     },
     "server": {
+        "chat": {
+            "gameId": -1,
+            "key": "Chat",
+            "name": "Chat",
+            "scene": "",
+            "proxy": "ChatProxy",
+            "msgInit": "",
+            "negotiate": "https://anhzai.online/chatserver/signalr/negotiate",
+            "connect": "wss://anhzai.online/chatserver/signalr/connect",
+            "hubGame": "ChatHub"
+        },
+
         "taxi": {
             "gameId": -1,
             "key": "taxi",
