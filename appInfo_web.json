@@ -835,6 +835,13 @@
             "GetAccountHistoryDetail": "https://anhzai.online/thiendia/api/service/GetAccountHistoryDetail"
         },
         "thanrung": {
+            "gameId": 11,
+            "key": "thanrung",
+            "name": "Thần Rừng",
+            "scene": "slotmachine/thanrung/SlotThanRungScene",
+            "proxy": "SlotThanRungProxy",
+            "msgInit": "minigame.INIT_SLOT_THAN_RUNG",
+
             "negotiate": "https://anhzai.online/mayaquest/signalr/negotiate",
             "connect": "wss://anhzai.online/mayaquest/signalr/connect",
             "hubGame": "GameHub",
@@ -877,6 +884,13 @@
             "getHonor": "https://anhzai.online/euro/api/history/GetHonor"
         },
         "aquaman": {
+            "gameId": 5,
+            "key": "AiCap",
+            "name": "Aquanman",
+            "scene": "slotmachine/aquaMan/SlotAquaManScene",
+            "proxy": "SlotAquaManProxy",
+            "msgInit": "slot.INIT_SLOT_AQUA_MAN",
+
             "negotiate": "https://anhzai.online/aquamen/signalr/negotiate",
             "connect": "wss://anhzai.online/aquamen/signalr/connect",
             "hubGame": "gameHub",
@@ -885,6 +899,13 @@
             "GetJackpot": "https://anhzai.online/aquamen//History/GetHistoryJackPot"
         },
         "gonzo": {
+            "gameId": 9,
+            "key": "EasterIsland",
+            "name": "Gonzo Quest",
+            "scene": "slotmachine/gonzo/SlotGonzoScene",
+            "proxy": "SlotGonzoProxy",
+            "msgInit": "slot.INIT_SLOT_GONZO",
+
             "negotiate": "https://anhzai.online/gonzo/signalr/negotiate",
             "connect": "wss://anhzai.online/gonzo/signalr/connect",
             "hubGame": "gameHub",
@@ -892,6 +913,13 @@
             "GetHonor": "https://anhzai.online/gonzo/Api/Statistic/GetStatistic"
         },
         "avatar": {
+            "gameId": 7,
+            "key": "xichlang",
+            "name": "Avatar",
+            "scene": "slotmachine/avatar/SlotAvatarScene",
+            "proxy": "SlotAvatarProxy",
+            "msgInit": "slot.INIT_SLOT_AVATAR",
+
             "negotiate": "https://anhzai.online/avatar/signalr/negotiate",
             "connect": "wss://anhzai.online/avatar/signalr/connect",
             "hubGame": "AladdinHub",
@@ -900,6 +928,13 @@
             "GetJackpot": "https://anhzai.online/avatar/api/history/GetNoHu"
         },
         "luca": {
+            "gameId": 8,
+            "key": "linhthu",
+            "name": "Luca",
+            "scene": "slotmachine/luca/SlotLucaScene",
+            "proxy": "SlotLucaProxy",
+            "msgInit": "slot.INIT_SLOT_LUCA",
+
             "negotiate": "https://anhzai.online/Luca/signalr/negotiate",
             "connect": "wss://anhzai.online/Luca/signalr/connect",
             "hubGame": "GameHub",
@@ -907,6 +942,13 @@
             "GetHonor": "https://anhzai.online/Luca/Api/Top/GetTopPlayers"
         },
         "mayaquest": {
+            "gameId": 11,
+            "key": "thanrung",
+            "name": "Maya Quest",
+            "scene": "slotmachine/mayaQuest/SlotMayaQuestScene",
+            "proxy": "SlotKNProxy",
+            "msgInit": "slot.INIT_SLOT_MAYA_QUEST",
+
             "negotiate": "https://anhzai.online/mayaquest/signalr/negotiate",
             "connect": "wss://anhzai.online/mayaquest/signalr/connect",
             "hubGame": "GameHub",
@@ -914,6 +956,13 @@
             "GetHonor": "https://anhzai.online/mayaquest/Api/History/GetTopPlayers"
         },
         "junglebook": {
+            "gameId": -1,
+            "key": "maya",
+            "name": "Jungle Book",
+            "scene": "slotmachine/jungleBook/SlotJungleBookScene",
+            "proxy": "SlotJungleBookProxy",
+            "msgInit": "slot.INIT_SLOT_JUNGLE_BOOK",
+
             "negotiate": "https://anhzai.online/jungleBook/signalr/negotiate",
             "connect": "wss://anhzai.online/jungleBook/signalr/connect",
             "hubGame": "GameHub",
