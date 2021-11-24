@@ -684,11 +684,11 @@
 		  "GetTopPlayers":"https://anhzai.online/superhero/Api/Top/GetTopPlayers"
       },	  
 	  "thienha":{
-            "negotiate": "https://anhzai.online/thienha/signalr/negotiate",
-            "connect": "wss://anhzai.online/thienha/signalr/connect",
-            "getTransactionHistory": "https://anhzai.online/thienha/api/vinhdanh/GetTransactionHistory",
-            "getHonorHistory" : "https://anhzai.online/thienha/api/vinhdanh/GetHonorHistory",
-            "getJackpotHistory": "https://anhzai.online/thienha/api/vinhdanh/GetJackpotHistory",
+            "negotiate": "https://anhzai.online/cuopbien/signalr/negotiate",
+            "connect": "wss://anhzai.online/cuopbien/signalr/connect",
+            "getTransactionHistory": "https://anhzai.online/cuopbien/api/vinhdanh/GetTransactionHistory",
+            "getHonorHistory" : "https://anhzai.online/cuopbien/api/vinhdanh/GetHonorHistory",
+            "getJackpotHistory": "https://anhzai.online/cuopbien/api/vinhdanh/GetJackpotHistory",
             "hubGame": "supernovahub"
       },
 	  "hilo": {
