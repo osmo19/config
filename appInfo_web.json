@@ -514,6 +514,13 @@
 	
 	"server" :{
 	  "taxi": {
+		"gameId": -1,
+		"key": "taxi",  
+		"gameName": "Tài Xỉu",
+		"scene": "minigame/TaiXiuScene",
+		"proxy": "TaiXiuProxy",
+		"msgInit": "minigame.INIT_TAI_XIU",  
+		  
 		"negotiate": "https://anhzai.online/luckydice/signalr/negotiate",
 		"connect": "wss://anhzai.online/luckydice/signalr/connect",
 		"hubGame": "MiniGameHub",
