@@ -743,7 +743,7 @@
 		"connect":"wss://anhzai.online/mayaquest/signalr/connect",
 		"hubGame":"GameHub",
 		"GetHistory":"https://anhzai.online/mayaquest/Api/History/GetAccountHistory",
-		"GetHonor":"https://anhzai.online/mayaquest/Api/History/GetTopPlayers,
+		"GetHonor":"https://anhzai.online/mayaquest/Api/History/GetTopPlayers"
 	  },
 	
 	  "luckyclub":{
@@ -787,14 +787,14 @@
 		"connect":"wss://anhzai.online/gonzo/signalr/connect",
 		"hubGame":"gameHub",
 		"GetHistory":"https://anhzai.online/gonzo/Api/History/GetHistory",
-		"GetHonor":"https://anhzai.online/gonzo/Api/Statistic/GetStatistic",
+		"GetHonor":"https://anhzai.online/gonzo/Api/Statistic/GetStatistic"
 	  },
 	  "avatar":{
 		"negotiate":"https://anhzai.online/avatar/signalr/negotiate",
 		"connect":"wss://anhzai.online/avatar/signalr/connect",
 		"hubGame":"AladdinHub",
 		"GetHistory":"https://anhzai.online/avatar/api/history/GetHistory",
-		"GetHonor":"https://anhzai.online/avatar/api/history/GetBigWin,
+		"GetHonor":"https://anhzai.online/avatar/api/history/GetBigWin",
 		"GetJackpot":"https://anhzai.online/avatar/api/history/GetNoHu"
 	  },
 	 "luca":{
@@ -802,21 +802,21 @@
 		"connect":"wss://anhzai.online/Luca/signalr/connect",
 		"hubGame":"GameHub",
 		"GetHistory":"https://anhzai.online/Luca/Api/Top/GetAccountHistory",
-		"GetHonor":"https://anhzai.online/Luca/Api/Top/GetTopPlayers,
+		"GetHonor":"https://anhzai.online/Luca/Api/Top/GetTopPlayers"
 	  },
 	"mayaquest":{
 		"negotiate":"https://anhzai.online/mayaquest/signalr/negotiate",
 		"connect":"wss://anhzai.online/mayaquest/signalr/connect",
 		"hubGame":"GameHub",
 		"GetHistory":"https://anhzai.online/mayaquest/Api/History/GetAccountHistory",
-		"GetHonor":"https://anhzai.online/mayaquest/Api/History/GetTopPlayers,
+		"GetHonor":"https://anhzai.online/mayaquest/Api/History/GetTopPlayers"
 	  },
 	"junglebook":{
 		"negotiate":"https://anhzai.online/jungleBook/signalr/negotiate",
 		"connect":"wss://anhzai.online/jungleBook/signalr/connect",
 		"hubGame":"GameHub",
 		"GetHistory":"https://anhzai.online/JungleBook/Api/History/GetAccountHistory",
-		"GetHonor":"https://anhzai.online/JungleBook/Api/History/GetTopPlayers,
+		"GetHonor":"https://anhzai.online/JungleBook/Api/History/GetTopPlayers"
 	  }
 	}
 }
