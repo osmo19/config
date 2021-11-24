@@ -745,6 +745,14 @@
 			"GetHistory":"https://anhzai.online/thanrung/Api/History/GetAccountHistory",
 			"GetHonor":"https://anhzai.online/thanrung/Api/History/GetTopPlayers"
 	  },
+	  "aquaman":{
+		"negotiate":"https://anhzai.online/aquamen/signalr/negotiate",
+		"connect":"wss://anhzai.online/aquamen/signalr/connect",
+		"hubGame":"gameHub",
+		"GetHistory":"https://anhzai.online/aquamen/History/GetHistoryPaging",
+		"GetHonor":"https://anhzai.online/aquamen/History/GetHonor",
+		"GetJackpot":"https://anhzai.online/aquamen//History/GetHistoryJackPot"
+	  },
 	  "luckyclub":{
 			"negotiate":"https://anhzai.online/luckyclub/signalr/negotiate",
 			"connect":"wss://anhzai.online/luckyclub/signalr/connect",
