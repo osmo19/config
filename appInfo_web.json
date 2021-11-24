@@ -177,18 +177,21 @@
     },
     "Wallet_DG": {
         "isOpen": true,
+        "name": "Dream Gaming",
         "GetBalance": "https://anhzai.online/dggame/Api/Transfer/GetBalance",
         "Transfer": "https://anhzai.online/dggame/Api/Transfer/Transfer",
         "GetGamePlay": "https://anhzai.online/dggame/Api/Transfer/GetGamePlay"
     },
     "Wallet_Pragmatic": {
         "isOpen": true,
+        "name": "Pragmatic",
         "GetBalance": "https://anhzai.online/pragmaticplay/Api/Transfer/GetBalance",
         "Transfer": "https://anhzai.online/pragmaticplay/Api/Transfer/Transfer",
         "GetGamePlay": "https://anhzai.online/pragmaticplay/Api/Transfer/GetGamePlay"
     },
     "Wallet_Saba": {
         "isOpen": true,
+        "name": "SabaEsports",
         "GetBalance": "https://anhzai.online/sabasport/Api/Transfer/GetBalance",
         "Transfer": "https://anhzai.online/sabasport/Api/Transfer/Transfer",
         "GetGamePlay": "https://anhzai.online/sabasport/Api/Transfer/GetGamePlay",
@@ -196,6 +199,7 @@
     },
     "Wallet_AECasino": {
         "isOpen": true,
+        "name": "AECasino",
         "GetBalance": "https://anhzai.online/aecasino/Api/Transfer/GetBalance",
         "Transfer": "https://anhzai.online/aecasino/Api/Transfer/Transfer",
         "GetGamePlay": "https://anhzai.online/aecasino/Api/Transfer/GetGamePlay"
