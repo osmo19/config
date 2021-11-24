@@ -267,6 +267,7 @@
 	"api": {
 		"GetTrustedDevices": "https://anhzai.online/authen/api/account/GetTrustedDevices",
 		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpot",
+		"GetJackpotRemain": "https://anhzai.online/event/Api/EventXJackpot/GetJackpotRemain",
 		"DeleteTrustedDevices": "https://anhzai.online/authen/api/account/DeleteTrustedDevices",
 		"FishJackPot": "https://api-banca.anhzai.online/mobile/event",
 		"TrumCaUrlPlay": "https://anhzai.online/fishingyl/Api/Game/GetLoginUrl",
