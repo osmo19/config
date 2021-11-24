@@ -753,6 +753,13 @@
 		"GetHonor":"https://anhzai.online/aquamen/History/GetHonor",
 		"GetJackpot":"https://anhzai.online/aquamen//History/GetHistoryJackPot"
 	  },
+	  "gonzo":{
+		"negotiate":"https://anhzai.online/gonzo/signalr/negotiate",
+		"connect":"wss://anhzai.online/gonzo/signalr/connect",
+		"hubGame":"gameHub",
+		"GetHistory":"https://anhzai.online/gonzo/Api/History/GetHistory",
+		"GetHonor":"https://anhzai.online/gonzo/Api/Statistic/GetStatistic",
+	  },
 	  "luckyclub":{
 			"negotiate":"https://anhzai.online/luckyclub/signalr/negotiate",
 			"connect":"wss://anhzai.online/luckyclub/signalr/connect",
