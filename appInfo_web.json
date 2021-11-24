@@ -547,7 +547,7 @@
 	   "xocdia": {
 		"negotiate": "https://anhzai.online/xocdia/signalr/negotiate",
 		"connect": "wss://anhzai.online/xocdia/signalr/connect",
-		"hubGame": "BauCuaHub",
+		"hubGame": "XocDiaHub",
 		"getAccountHistory":"https://anhzai.online/xocdia/Api/BauCua/GetAccountHistory",
 		"getAccountHistoryDetail":"https://anhzai.online/xocdia/Api/BauCua/GetAccountHistoryDetail",
 		"getTopDailyWinners": "https://anhzai.online/xocdia/Api/BauCua/getTopDailyWinners",
@@ -581,15 +581,15 @@
 		"getAccountHistory":"https://anhzai.online/chuotsachinhgao/Api/History/GetAccountHistory"
 	  },
 	  "baucua": {
-		"negotiate": "https://anhzai.online/panda/signalr/negotiate",
-		"connect": "wss://anhzai.online/panda/signalr/connect",
+		"negotiate": "https://anhzai.online/baucua/signalr/negotiate",
+		"connect": "wss://anhzai.online/baucua/signalr/connect",
 		"hubGame": "BauCuaHub",
 		
-		"getListSoiCau":"https://anhzai.online/panda/Api/BauCua/GetListSoiCau",
-		"getTopDailyWinners":"https://anhzai.online/panda/Api/BauCua/getTopDailyWinners",
-		"getAccountHistoryDetail":"https://anhzai.online/panda/Api/BauCua/GetAccountHistoryDetail",
-		"getAccountHistory":"https://anhzai.online/panda/Api/BauCua/GetAccountHistory",
-		"getSessionDetails": "https://anhzai.online/panda/Api/BauCua/GetSessionDetails"
+		"getListSoiCau":"https://anhzai.online/baucua/Api/BauCua/GetListSoiCau",
+		"getTopDailyWinners":"https://anhzai.online/baucua/Api/BauCua/getTopDailyWinners",
+		"getAccountHistoryDetail":"https://anhzai.online/baucua/Api/BauCua/GetAccountHistoryDetail",
+		"getAccountHistory":"https://anhzai.online/baucua/Api/BauCua/GetAccountHistory",
+		"getSessionDetails": "https://anhzai.online/baucua/Api/BauCua/GetSessionDetails"
 	  },
 	  "tulinh": {
 		"negotiate": "https://anhzai.online/tulinh/signalr/negotiate",
@@ -597,7 +597,7 @@
 		"hubGame": "TuLinhHub",
 		
 		"getListSoiCau":"https://anhzai.online/tulinh/Api/TuLinh/GetListSoiCau",
-		"getTopDailyWinners":"https://anhzai.online/tulinh/Api/TuLinh/getTopDailyWinners",
+		"getTopDailyWinners":"https://anhzai.online/TuLinh/Api/TuLinh/getTopDailyWinners",
 		"getAccountHistoryDetail":"https://anhzai.online/tulinh/Api/TuLinh/GetAccountHistoryDetail",
 		"getAccountHistory":"https://anhzai.online/tulinh/Api/TuLinh/GetAccountHistory",
 		"getSessionDetails": "https://anhzai.online/tulinh/Api/TuLinh/GetSessionDetails"
@@ -817,6 +817,6 @@
 		"hubGame":"GameHub",
 		"GetHistory":"https://anhzai.online/JungleBook/Api/History/GetAccountHistory",
 		"GetHonor":"https://anhzai.online/JungleBook/Api/History/GetTopPlayers,
-	  },
+	  }
 	}
 }
