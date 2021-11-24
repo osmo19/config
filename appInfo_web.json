@@ -266,6 +266,7 @@
 	"FishJackPotToken":"3d87caf2-f2a7-3ec5-9338-41bfdb2895bf",
 	"api": {
 		"GetTrustedDevices": "https://anhzai.online/authen/api/account/GetTrustedDevices",
+		"GetHonorXJackpot": "https://anhzai.online/event/Api/EventXJackpot/GetHonorXJackpot",
 		"DeleteTrustedDevices": "https://anhzai.online/authen/api/account/DeleteTrustedDevices",
 		"FishJackPot": "https://api-banca.anhzai.online/mobile/event",
 		"TrumCaUrlPlay": "https://anhzai.online/fishingyl/Api/Game/GetLoginUrl",
