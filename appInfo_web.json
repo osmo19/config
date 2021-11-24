@@ -840,7 +840,7 @@
             "name": "Thần Rừng",
             "scene": "slotmachine/thanrung/SlotThanRungScene",
             "proxy": "SlotThanRungProxy",
-            "msgInit": "minigame.INIT_SLOT_THAN_RUNG",
+            "msgInit": "slot.INIT_SLOT_THAN_RUNG",
 
             "negotiate": "https://anhzai.online/mayaquest/signalr/negotiate",
             "connect": "wss://anhzai.online/mayaquest/signalr/connect",
