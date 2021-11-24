@@ -739,12 +739,41 @@
 			"GetAccountHistoryDetail":"https://anhzai.online/thiendia/api/service/GetAccountHistoryDetail"
 	  },
 	  "thanrung":{
-			"negotiate":"https://anhzai.online/thanrung/signalr/negotiate",
-			"connect":"wss://anhzai.online/thanrung/signalr/connect",
-			"hubGame":"gameHub",
-			"GetHistory":"https://anhzai.online/thanrung/Api/History/GetAccountHistory",
-			"GetHonor":"https://anhzai.online/thanrung/Api/History/GetTopPlayers"
+			"negotiate":"https://anhzai.online/mayaquest/signalr/negotiate",
+		"connect":"wss://anhzai.online/mayaquest/signalr/connect",
+		"hubGame":"GameHub",
+		"GetHistory":"https://anhzai.online/mayaquest/Api/History/GetAccountHistory",
+		"GetHonor":"https://anhzai.online/mayaquest/Api/History/GetTopPlayers,
 	  },
+	
+	  "luckyclub":{
+			"negotiate":"https://anhzai.online/luckyclub/signalr/negotiate",
+			"connect":"wss://anhzai.online/luckyclub/signalr/connect",
+			"hubGame":"gameHub",
+			"GetHistory":"https://anhzai.online/luckyclub/Api/History/GetAccountHistory",
+			"GetHonor":"https://anhzai.online/luckyclub/Api/History/GetTopPlayers"
+		},
+	  "maya":{
+		   "negotiate":"https://anhzai.online/slot345/signalr/negotiate",
+		   "connect":"wss://anhzai.online/slot345/signalr/connect",
+		   "hubGame":"GameHub",
+		   "GetHistory":"https://anhzai.online/slot345/Api/History/GetAccountHistory",
+		   "GetHonor":"https://anhzai.online/slot345/Api/History/GetTopPlayers"
+		},
+	   "euro":{
+			  "negotiate":"https://anhzai.online/euro/signalr/negotiate",
+			  "connect":"wss://anhzai.online/euro/signalr/connect",
+			  "chatNegotiate":"https://anhzai.online/euro/signalr/negotiate",
+			  "chatConnect":"wss://anhzai.online/euro/signalr/connect",
+			  "hubchat":"chatHub",
+			  "chanel_chat":"all_thanden",
+			  "hubGame":"AladdinHub",
+			  "getHistory":"https://anhzai.online/euro/api/history/GetHistory",
+			  "getBigWin":"https://anhzai.online/euro/api/history/GetBigWin",
+			  "getNoHu":"https://anhzai.online/euro/api/history/GetNoHu",
+			  "getFreeSpin":"https://anhzai.online/euro/api/history/GetFreeSpin",
+			  "getHonor":"https://anhzai.online/euro/api/history/GetHonor"
+			},
 	  "aquaman":{
 		"negotiate":"https://anhzai.online/aquamen/signalr/negotiate",
 		"connect":"wss://anhzai.online/aquamen/signalr/connect",
@@ -760,33 +789,34 @@
 		"GetHistory":"https://anhzai.online/gonzo/Api/History/GetHistory",
 		"GetHonor":"https://anhzai.online/gonzo/Api/Statistic/GetStatistic",
 	  },
-	  "luckyclub":{
-			"negotiate":"https://anhzai.online/luckyclub/signalr/negotiate",
-			"connect":"wss://anhzai.online/luckyclub/signalr/connect",
-			"hubGame":"gameHub",
-			"GetHistory":"https://anhzai.online/luckyclub/Api/History/GetAccountHistory",
-			"GetHonor":"https://anhzai.online/luckyclub/Api/History/GetTopPlayers"
-		},
-	  "maya":{
-		   "negotiate":"https://anhzai.online/slot345/signalr/negotiate",
-		   "connect":"wss://anhzai.online/slot345/signalr/connect",
-		   "hubGame":"GameHub",
-		   "GetHistory":"https://anhzai.online/slot345/Api/History/GetAccountHistory",
-		   "GetHonor":"https://anhzai.online/slot345/Api/History/GetTopPlayers"
-		},
-		"euro":{
-			  "negotiate":"https://anhzai.online/euro/signalr/negotiate",
-			  "connect":"wss://anhzai.online/euro/signalr/connect",
-			  "chatNegotiate":"https://anhzai.online/euro/signalr/negotiate",
-			  "chatConnect":"wss://anhzai.online/euro/signalr/connect",
-			  "hubchat":"chatHub",
-			  "chanel_chat":"all_thanden",
-			  "hubGame":"AladdinHub",
-			  "getHistory":"https://anhzai.online/euro/api/history/GetHistory",
-			  "getBigWin":"https://anhzai.online/euro/api/history/GetBigWin",
-			  "getNoHu":"https://anhzai.online/euro/api/history/GetNoHu",
-			  "getFreeSpin":"https://anhzai.online/euro/api/history/GetFreeSpin",
-			  "getHonor":"https://anhzai.online/euro/api/history/GetHonor"
-			}		
+	  "avatar":{
+		"negotiate":"https://anhzai.online/avatar/signalr/negotiate",
+		"connect":"wss://anhzai.online/avatar/signalr/connect",
+		"hubGame":"AladdinHub",
+		"GetHistory":"https://anhzai.online/avatar/api/history/GetHistory",
+		"GetHonor":"https://anhzai.online/avatar/api/history/GetBigWin,
+		"GetJackpot":"https://anhzai.online/avatar/api/history/GetNoHu"
+	  },
+	 "luca":{
+		"negotiate":"https://anhzai.online/Luca/signalr/negotiate",
+		"connect":"wss://anhzai.online/Luca/signalr/connect",
+		"hubGame":"GameHub",
+		"GetHistory":"https://anhzai.online/Luca/Api/Top/GetAccountHistory",
+		"GetHonor":"https://anhzai.online/Luca/Api/Top/GetTopPlayers,
+	  },
+	"mayaquest":{
+		"negotiate":"https://anhzai.online/mayaquest/signalr/negotiate",
+		"connect":"wss://anhzai.online/mayaquest/signalr/connect",
+		"hubGame":"GameHub",
+		"GetHistory":"https://anhzai.online/mayaquest/Api/History/GetAccountHistory",
+		"GetHonor":"https://anhzai.online/mayaquest/Api/History/GetTopPlayers,
+	  },
+	"junglebook":{
+		"negotiate":"https://anhzai.online/jungleBook/signalr/negotiate",
+		"connect":"wss://anhzai.online/jungleBook/signalr/connect",
+		"hubGame":"GameHub",
+		"GetHistory":"https://anhzai.online/JungleBook/Api/History/GetAccountHistory",
+		"GetHonor":"https://anhzai.online/JungleBook/Api/History/GetTopPlayers,
+	  },
 	}
 }
