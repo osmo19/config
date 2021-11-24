@@ -543,7 +543,7 @@
 		"GetAccountJackpot" : "https://anhzai.online/event/Api/EventRongThan/GetAccountJackpot"
 	  },
 	  "minipoker": {
-		"gameId": -1,
+		"gameId": 1,
 		"key": "Minipoker",  
 		"name": "MiniPoker",
 		"scene": "minigame/MiniPokerScene",
