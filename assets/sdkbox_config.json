@@ -1,0 +1,25 @@
+{
+    "android": {
+        "OneSignal": {
+            "sound": false, 
+            "vibrate": false, 
+            "project_number": "448569219942",
+            "debug": false, 
+            "notifications_when_active": false, 
+            "id": "324e0e8a-278a-468a-bd1a-4a1ea73675ce"
+        }, 
+        "Facebook": {
+            "debug": false
+        }
+    }, 
+    "ios": {
+        "OneSignal": {
+            "debug": false, 
+            "id": "324e0e8a-278a-468a-bd1a-4a1ea73675ce", 
+            "auto_register": false
+        }, 
+        "Facebook": {
+            "debug": true
+        }
+    }
+}
